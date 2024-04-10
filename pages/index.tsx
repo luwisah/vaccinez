@@ -373,7 +373,7 @@ const Home: NextPage = () => {
                   <div  style={{fontFamily: 'Brainzbridge1, sans-serif', fontSize: '20px'}}>
                     If you own any deGenZ or have bought VaccineZ in the BRNZ store, claim your VaccineZ now.<br/><br/>
                     If the above does not apply to you or you would like to purchase more vaccinez, please wait for Stage 2 where you can purchase VaccineZ for 0.001 eth each.<br/><br/>
-                    *Note - there will be a limit of 33 vaccinez per wallet address during Stage 2.
+                    *Note - there will be a limit of 11 vaccinez per wallet address during Stage 2.
                   </div>
                   
                 )}
