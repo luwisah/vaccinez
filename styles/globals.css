@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+/* Define the custom local font */
+@font-face {
+    font-family: 'Brainzbridge1';
+    src: url('C:/Users/luwis/blockchain Apps/burnz/styles/Brainzbridge1-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Change the values in here to match your branding */
+:root {
+    /* Background color of the page */
+    --background-color: #000000;
+
+    /* Color of the text/words */
+    --text-color: #ffffff;
+
+    /* Main color of your brand */
+    --color-primary: #f213a4;
+
+    /* Secondary color of your brand */
+    --color-secondary: #418dff;
+
+    /* Primary font */
+    --font-primary: 'Brainzbridge1', sans-serif;
+
+    /* Secondary font */
+    --font-secondary: "Inter", sans-serif;
+
+      /* Color of the border around items */
+    --border-color: rgba(255, 255, 255, 0.5);
+
+}
+
+/* Default design values of the entire document */
+body {
+    background: var(--background-color);
+    font-family: var(--font-secondary);
+    color: var(--text-color);
+
+    display: flex;
+    margin: 0;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Example of applying the secondary font to specific elements */
+p, h1, h2, h3 {
+    font-family: var(--font-primary);
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
