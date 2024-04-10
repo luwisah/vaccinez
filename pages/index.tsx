@@ -367,7 +367,7 @@ const Home: NextPage = () => {
                   <div  style={{fontFamily: 'Brainzbridge1, sans-serif', fontSize: '20px'}}>
                     STAGE 1 IS OVER<br/><br/>Now is your last chance to grab some of <br/>Dr. bRAinZ mysterious potion<br/><br/>
                     Claim extra VaccineZ to increase the potency of your reGenZ<br/><br/>
-                    You can purchase upto 33 vaccinez for only 0.001 eth each
+                    You can purchase upto 11 vaccinez for only 0.001 eth each
                   </div>
                 ) : (
                   <div  style={{fontFamily: 'Brainzbridge1, sans-serif', fontSize: '20px'}}>
