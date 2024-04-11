@@ -379,7 +379,7 @@
 
   .horizontalLayout, .titleDescriptionSection, .mintingOptionsSection, .previewImageSection {
     flex-direction: column;
-    width: 65vw;
+    width: 70vw;
   }
 
   .horizontalLayout {
