@@ -292,8 +292,8 @@
 }
 
 .titleDescriptionSection, .mintingOptionsSection {
-  max-width: 23vw;
-  width: 22vw;
+  max-width: 65vw;
+  width: 23vw;
   min-width: 23vw;
   flex: 1; /* Each section takes equal width */
 }
@@ -370,7 +370,7 @@
 @media screen and (max-width: 990px) {
   .mintInfoContainer, .infoSide, .imageSide {
     flex-direction: column;
-    padding: 10px 40px;
+    padding: 10px 0px;
   }
   .titleImage {
     max-width: 80%; /* Ensure the image is responsive */
@@ -379,6 +379,7 @@
 
   .horizontalLayout, .titleDescriptionSection, .mintingOptionsSection, .previewImageSection {
     flex-direction: column;
+    width: 65vw;
   }
 
   .horizontalLayout {
