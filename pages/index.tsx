@@ -378,13 +378,6 @@ const Home: NextPage = () => {
                   
                 )}
               </div>
-          <a href="https://brainzbridge.com" rel="noopener noreferrer">
-              <img 
-                  src="https://uploads-ssl.webflow.com/63413974bde15f3538fbb34d/64117fd00e4f808c2a9dc3b2_logo.png"
-                  alt="Brainz Bridge Logo"
-                  className={styles.logo}
-              />
-          </a>
           <div className={styles.previewImageSection}>
           <img
                   className={styles.image}
