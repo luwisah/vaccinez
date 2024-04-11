@@ -373,7 +373,7 @@
     padding: 10px 0px;
   }
   .titleImage {
-    max-width: 80%; /* Ensure the image is responsive */
+    max-width: 70%; /* Ensure the image is responsive */
     height: auto; /* Maintain aspect ratio */
   }
 
