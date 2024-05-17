@@ -381,7 +381,7 @@ const Home: NextPage = () => {
           <div className={styles.previewImageSection}>
           <img
                   className={styles.image}
-                  src={"https://cdn.discordapp.com/attachments/651171521141932035/1197689531344883833/SPOILER_CuRed_graphicblackbg2.gif?ex=6621b1cc&is=660f3ccc&hm=e5643eca1a773d2f7afd9ec6bcab6a3523ffccc9d470d03abe9eb0fa8cbae2ba&"}
+                  src={"https://raw.githubusercontent.com/luwisah/vaccinez/main/SPOILER_CuRed_graphicblackbg2.gif"}
                   alt={`${contractMetadata?.name} preview image`}
                 />
             </div>
