@@ -6,7 +6,7 @@ import ThirdwebGuideFooter from "../components/GitHubLink";
 import { Sepolia } from "@thirdweb-dev/chains"
 
 // This is the chain your dApp will work on.
-const activeChain = Sepolia;
+const activeChain = base-sepolia-testnet;
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
