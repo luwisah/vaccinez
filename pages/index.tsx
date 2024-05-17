@@ -332,7 +332,7 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.titleImageContainer}>
         <img 
-            src="https://media.discordapp.net/attachments/651171521141932035/1198589390302232597/dbl.png?ex=6624f7db&is=661282db&hm=c4a92c9f1547a79e55af2da6c7fa9299886d6aa96deb85f8e0452c54e85f3fcd&=&format=webp&quality=lossless&width=708&height=175" 
+            src="https://raw.githubusercontent.com/luwisah/vaccinez/main/dbl.png" 
             alt="drbrainzlab" 
             className={styles.titleImage}
           />
@@ -344,7 +344,7 @@ const Home: NextPage = () => {
                 <div style={{fontFamily: 'Cascadia Mono, sans-serif', fontSize: '20px'}}>{popupMessage.split(' View your NFTs ')[0]}</div>
                 {popupType === "success" && (
                   <>
-                    <img src="https://cdn.discordapp.com/attachments/651171521141932035/1197689531344883833/SPOILER_CuRed_graphicblackbg2.gif?ex=6621b1cc&is=660f3ccc&hm=e5643eca1a773d2f7afd9ec6bcab6a3523ffccc9d470d03abe9eb0fa8cbae2ba&" className={styles.yourGifClass} />
+                    <img src="https://raw.githubusercontent.com/luwisah/vaccinez/main/SPOILER_CuRed_graphicblackbg2.gif" className={styles.yourGifClass} />
                     <a href={nftViewUrl} target="_blank" rel="noopener noreferrer">View your NFTs</a>
                   </>
                 )}
